@@ -1,0 +1,23 @@
+* {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(180, 69, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+    list-style: none;
+}
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(180, 69, 50);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn-voltar:hover {
+    background-color: rgb(87, 64, 105);
+}

@@ -1,0 +1,117 @@
+/*estilos da minha página web*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*---------------------------------- */
+/* geral */
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40;
+}
+
+/*-------------------------------------*/
+.container_cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(185, 80, 61);
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: rgb(87, 64, 105);
+}
+
+/*-------------------------------------*/
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(180, 69, 50);
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: rgb(87, 64, 105);
+}
+
+.container-navegacao a:hover {
+    color: black;
+}
+/*-------------------------------------*/
+.container-historia {
+    background-color: rgb(180, 69, 50);
+    overflow: auto;
+}
+
+.container-historia .texto {
+    float: center;
+    margin: 60px auto;
+    background-color:rgb(139, 64, 50);
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-historia .texto .icone {
+    margin-bottom: 10px;
+}
+
+.container-historia .historia-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: black;
+}
+
+.botoes-manga-anime a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: rgb(87, 64, 105);
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-manga-anime a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------------------------*/
+footer {
+    text-align: center;
+    padding: 80px;
+    background-color:rgb(180, 69, 50);
+    color: black;
+}
+
+.container-informacoes {
+    background-color:rgb(180, 69, 50);
+    padding: 80px;
+    text-align: center;
+}
+/*-----------------------------------------------*/
+
+.container-titulo1 {
+    color: black;
+}
+.container-titulo2 {
+    color: black;
+}
